@@ -1,0 +1,14 @@
+CREATE TABLE POL7_Exhibits
+(
+    ExhibitID INT IDENTITY(1,1) PRIMARY KEY,
+    POL7Number VARCHAR(50),
+    CRNumber VARCHAR(50),
+    ExhibitNumber VARCHAR(50),
+    Description VARCHAR(500),
+    Quantity INT,
+    Value DECIMAL(18,2),
+    DateReceived DATETIME,
+    InvestigatingOfficer VARCHAR(100),
+    Station VARCHAR(100),
+    Status VARCHAR(50)
+);
