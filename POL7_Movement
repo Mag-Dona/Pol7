@@ -1,0 +1,9 @@
+CREATE TABLE POL7_Movement
+(
+    MovementID INT IDENTITY(1,1) PRIMARY KEY,
+    ExhibitID INT,
+    FromOfficer VARCHAR(100),
+    ToOfficer VARCHAR(100),
+    MovementDate DATETIME,
+    Reason VARCHAR(500)
+);
